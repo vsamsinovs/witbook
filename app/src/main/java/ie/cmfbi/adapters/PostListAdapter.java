@@ -97,7 +97,7 @@ public class PostListAdapter extends FirebaseListAdapter<Post> implements FBDBLi
 
 
             //TODO
-            //video.start();
+            video.start();
         }
         else{
             ((ConstraintLayout)row.findViewById(R.id.mediaContainer)).setVisibility(View.INVISIBLE);
