@@ -88,6 +88,7 @@ public class EditUserFragment extends Fragment implements View.OnClickListener, 
         if ((nameText.length() > 0)) {
 
             user.userName = nameText;
+            user.userNameLower = nameText.toLowerCase();
             if(imgBitmap != null) {
                 // cannot return url from within success postback
                 app.mFBDBManager.updateImageUser(user, imgBitmap);
