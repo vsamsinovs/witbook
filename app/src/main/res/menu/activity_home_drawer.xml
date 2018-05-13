@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_menu_home"
+        android:title="Home" />
+
+
+        <item
+            android:id="@+id/nav_add_post"
+            android:icon="@drawable/ic_plus"
+            android:title="Create New Post" />
+
+        <item
+            android:id="@+id/nav_user_search"
+            android:icon="@drawable/ic_search_2"
+            android:title="Search" />
+
+    </group>
+
+
+    <item android:title="Extra &amp; Locate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/ic_menu_map"
+                android:title="View on Map" />
+        </menu>
+    </item>
+
+    <item android:title="Account &amp; Locate">
+        <menu>
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/ic_account"
+                android:title="Account" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_out"
+                android:onClick="menuSignOut"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

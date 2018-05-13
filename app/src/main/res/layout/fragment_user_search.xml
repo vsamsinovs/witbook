@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ie.cmfbi.fragments.UserSearchFragment">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="486dp"
+        android:gravity="center" >
+
+        <EditText
+            android:id="@+id/searchUserNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/searchUserHint"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <requestFocus />
+        </EditText>
+
+        <Spinner
+            android:id="@+id/searchUserTypeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/searchUserTypePrompt"
+            android:layout_below="@+id/searchUserNameEditText"
+            android:layout_alignParentStart="true"
+            android:paddingBottom="10dp" />
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/user_swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/recentAddedBarTextView"
+            android:layout_alignParentBottom="true">
+
+            <ListView
+                android:id="@+id/userList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|bottom">
+            </ListView>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <TextView
+            android:id="@+id/recentAddedBarTextView"
+            style="@style/banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/searchUsersResultsLbl"
+            android:layout_gravity="center"
+            android:layout_below="@+id/searchUserTypeSpinner"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/empty_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/recentlyViewedEmptyMessage"
+            android:textColor="@color/headerBGColor"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="157dp" />
+
+    </RelativeLayout>
+</FrameLayout>

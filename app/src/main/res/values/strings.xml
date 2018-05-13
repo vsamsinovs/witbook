@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">WitBook</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="appHelpTitle">WITBook Help</string>
+    <string name="appHelp">This is the help screen for WITBook</string>
+    <string name="appHelpExtra">Basically\, if you need help on using this app, you probably shouldn\'t be using it</string>
+    <string name="appDisplayName">WITBook 1.0</string>
+    <string name="appDesc">WITBook.</string>
+    <string name="appMoreInfo">It is a social media portal for all WIT students.</string>
+    <string name="appAbout">About WITBook</string>
+    <string name="appWebsite">ddrohan.github.io</string>
+    <string name="developer">Developed by Dave Drohan</string>
+
+    <string name="versionLabel">Current Version:</string>
+    <string name="version">1</string>
+
+    <string name="saveButton">Save</string>
+
+    <string name="searchUserTypePrompt">Select User Type</string>
+    <string name="searchUserHint">Search Users</string>
+    <string name="searchUsersResultsLbl">Search Users</string>
+
+    <string name="friendsHeaderLbl">Friends</string>
+    <string name="recentAddedPostsHeaderLbl">Recent Posts</string>
+    <string name="userNameLbl">Name :</string>
+    <string name="userDobLbl">DOB :</string>
+    <string name="informationLbl">Information</string>
+    <string name="recentlyViewedEmptyMessage">Post list is empty!</string>
+
+    <string name="unfriendUserBtn">Unfriend</string>
+    <string name="friendUserBtn">Add Friend</string>
+    <string name="selfFriendLbl">Cannot add yourself as a friend</string>
+
+
+    <string name="changeUserPicBtn">Update Picture</string>
+
+    <string name="linktoRegister">Welcome to WitBook</string>
+
+    <string name="title_map">Map</string>
+    <string name="google_maps_key">AIzaSyC8zd-iGM5aqQqd7wzedyZ-LIG4PyCY_Kg</string>
+
+</resources>
